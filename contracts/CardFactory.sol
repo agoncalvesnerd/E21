@@ -1,6 +1,6 @@
 pragma experimental ABIEncoderV2;
 
-import "./Ownable.sol";
+import "./ownable.sol";
 
 contract CardFactory is Ownable {
 
@@ -18,25 +18,27 @@ contract CardFactory is Ownable {
         uint8 id;
         string  suit;
         string  value;
-        bool    initialized;
     }
     Card[] public cards;
     
     mapping(address => uint8) internal userFirstCard;
     mapping(address => uint8) internal userSecondCard;
     
-    // populates database with every card combination
+    event debugMessage(uint8 _bum);
+    event debugBool(bool _bum);
+    
+    // populates database with every card combination.
     // should ideally only be executed once
     function populateCards() external onlyOwner() {
         uint8 cardId = 0;
         for (uint8 i = 0; i <= suits.length - 1; i++) {
             for (uint8 j = 0; j < 13; j++) {
-                cards.push(Card(cardId, suits[i], deck[j], true));
+                cards.push(Card(cardId, suits[i], deck[j]));
             }
         }
     }
     
-    // draws a random card from the current deck and 
+    // draws a random card, removes it from the current deck and returns it
     function drawCard(address user) public view returns(Card memory) {
         require(user == msg.sender && cards.length != 0);
         Card[] memory availableCards = cards;
