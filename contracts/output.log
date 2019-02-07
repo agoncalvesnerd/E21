@@ -1,0 +1,129 @@
+Ganache CLI v6.3.0 (ganache-core: 2.4.0)
+
+Available Accounts
+==================
+(0) 0x329981694fe8af4673de3c07e1778b7ac355597f (~100 ETH)
+(1) 0x85f0f51e76e1c8c6fc6b00083fef92fb7d72755b (~100 ETH)
+(2) 0x9829e11ad2c6a788a80a49df32c99a77a506e563 (~100 ETH)
+(3) 0xa485786c4bfda0651ad8ed76faba292b21c3fe85 (~100 ETH)
+(4) 0x1807af8a6b298ea1f0867bbf18afcd5a6aca29b7 (~100 ETH)
+(5) 0x2b4c0f3535046a792d07dda8f0f47f534c2f40f5 (~100 ETH)
+(6) 0x34b80e4fc308ad59f6d4641bf58aa8d81b697508 (~100 ETH)
+(7) 0xa2ab349d7e8c48c29d4a2e3daeb0f2518330e1a8 (~100 ETH)
+(8) 0x9c9284c62b5c93e0ac99862473da4f775fbab69f (~100 ETH)
+(9) 0xeacb93d27e5cf39789d6d74fc2e1b2b62b2327d0 (~100 ETH)
+
+Private Keys
+==================
+(0) 0x74437c7e7af1dbd236bf2235327975b3d68e6c0b2e2205aba141ab9de3d74b1d
+(1) 0xb7f38e9691d98a1b635526bc365204ac3980e595edac4a32f9a4e8127d4027ca
+(2) 0x68ac621d4eaec886623bde81d6e8e893f72c303f91412bd7bf6f838443cbda84
+(3) 0x77465b03ec5e51153f32fc2475b0aff1a40677ac3f8d7059b634f0d03ed7f8d0
+(4) 0x5d2c203efc7f508bccfa072091385050987e361e939bb8510379a04958a657a6
+(5) 0x5e228dc07a6be5c24a0562b1e7ea0991888ef4fd19285f3eb41fca6d929b4433
+(6) 0x1046c4a456aac30cbce6921e035718f6eda99a0afe87cc582d8006b64b1bff76
+(7) 0x60d643b1e2e4b138cf239679206a17947e10ecab5141e6546f0f04f325c2f86d
+(8) 0x484570ab47850854e58023587f1b28f5dcfef597a75bb99329f7e9de5999e53a
+(9) 0x9d1334faa9dbc1aeaa3e233d712ce565c1cafdbaeeb95431e76b0300c64f3b16
+
+HD Wallet
+==================
+Mnemonic:      verify they verb control drastic depth voice crowd fall ticket nothing morning
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Gas Price
+==================
+20000000000
+
+Gas Limit
+==================
+6721975
+
+Listening on 127.0.0.1:7545
+net_version
+eth_accounts
+net_version
+eth_accounts
+net_version
+eth_accounts
+net_version
+eth_accounts
+net_version
+eth_accounts
+eth_getBlockByNumber
+eth_accounts
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_estimateGas
+eth_getBlockByNumber
+eth_blockNumber
+net_version
+eth_sendTransaction
+
+  Transaction: 0xbbad228fa5d2b627f1c62772347767969b6be89392e92c269f483bfdd6ff9e74
+  Contract created: 0xaf6eef3fdb6cf683a483bc9d8ef3175179ce9988
+  Gas usage: 284908
+  Block Number: 1
+  Block Time: Wed Jan 30 2019 19:39:00 GMT+0000 (Coordinated Universal Time)
+
+eth_getTransactionReceipt
+eth_getCode
+eth_getTransactionByHash
+eth_getBalance
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_sendTransaction
+
+  Transaction: 0x8e60e73b3865d4f048d85f8a5a1e2e782d073a9e446e9507a00676767273c0f2
+  Gas usage: 42034
+  Block Number: 2
+  Block Time: Wed Jan 30 2019 19:39:00 GMT+0000 (Coordinated Universal Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_accounts
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_estimateGas
+eth_getBlockByNumber
+eth_blockNumber
+net_version
+eth_sendTransaction
+
+  Transaction: 0x7ed3c82ca67c1df42976975b0186ce4217000e8c34d272bb5729bc85b8ab9807
+  Contract created: 0x0452a04c80fe7600cbce2f5710392e0061a10c2d
+  Gas usage: 709113
+  Block Number: 3
+  Block Time: Wed Jan 30 2019 19:39:00 GMT+0000 (Coordinated Universal Time)
+
+eth_getTransactionReceipt
+eth_getCode
+eth_getTransactionByHash
+eth_getBalance
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_sendTransaction
+
+  Transaction: 0x27ff55e7968ffe7d5a8da809e1b11646f32aa6d94dafd24ab4ba0cbc017c2308
+  Gas usage: 27034
+  Block Number: 4
+  Block Time: Wed Jan 30 2019 19:39:01 GMT+0000 (Coordinated Universal Time)
+
+eth_getTransactionReceipt
+net_version
+eth_accounts
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_call
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
