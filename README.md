@@ -1,2 +1,2 @@
 # E21
-Blackjack on Ether
+Hello Kraken! This is a Blackjack DApp built from scratch on the Ether blockchain.
