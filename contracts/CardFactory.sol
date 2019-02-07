@@ -1,8 +1,9 @@
 pragma experimental ABIEncoderV2;
 
-import "./ownable.sol";
+import "./helpers/Ownable.sol";
+import "./helpers/R11n.sol";
 
-contract CardFactory is Ownable {
+contract CardFactory is R11n, Ownable {
 
     uint randNonce = 0;
     uint8 cardsTotal = 52;
@@ -23,9 +24,6 @@ contract CardFactory is Ownable {
     
     mapping(address => uint8) internal userFirstCard;
     mapping(address => uint8) internal userSecondCard;
-    
-    event debugMessage(uint8 _bum);
-    event debugBool(bool _bum);
     
     // populates database with every card combination.
     // should ideally only be executed once
@@ -56,12 +54,6 @@ contract CardFactory is Ownable {
             }
         }
         return availableCards[randomNumber(availableCards.length - 1)];
-    }
-    
-    // generates a random number based on block variables.
-    // OBVIOUS ATTACK VECTOR HERE - NEED TO USE AN ORACLE IN PRODUCTION
-    function randomNumber(uint size) internal view returns (uint256) {
-        return uint256(keccak256(abi.encodePacked(block.timestamp, block.difficulty))) % size;
     }
 
 }
