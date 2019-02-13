@@ -38,7 +38,7 @@ contract CardFactory is R11n, Ownable {
     
     // draws a random card, removes it from the current deck and returns it
     function drawCard(address user) public view returns(Card memory) {
-        require(user == msg.sender && cards.length != 0);
+        require(user == msg.sender && cards.length > 0);
         Card[] memory availableCards = cards;
         uint256 firstCardId  = userFirstCard[user];
         uint256 secondCardId = userSecondCard[user];
