@@ -32,6 +32,7 @@ contract CardFactory is R11n, Ownable {
         for (uint8 i = 0; i <= suits.length - 1; i++) {
             for (uint8 j = 0; j < 13; j++) {
                 cards.push(Card(cardId, suits[i], deck[j]));
+				cardId++;
             }
         }
     }
